@@ -1,0 +1,47 @@
+// for (buldingBlock = 0 ; buildingBlock <= 6 ; buildingBlock++)
+//     console.log(buildingBlock);
+
+// var Block = "#"
+// var buildingBlock = 0
+//
+// for (buldingBlock = 0; buildingBlock <= 6; buildingBlock++)
+// //     var building = for (Block + (Block ))
+//
+//     var building = Block + buldingBlock
+//     console.log(building);
+
+
+// var thing = "#";
+// var long = thing.length;
+// console.log(long);
+
+//var one = "#";
+// var two = 0
+// var three = null
+// var four = one.length;
+
+// console.log(four);
+//
+// // for ( two = 0 ; two <= 6 ; three = console.log(one) +  )
+// //     ;
+//
+// for (one ; one = one + '#'; console.log(one))
+//     ;
+
+console.log("exponential/doubling triangle:")
+var one = "#";
+for (one ; one.length <= 64; one = one+one )
+    console.log(one);
+
+console.log("regular triangle:")
+var one = "#";
+for (one ; one.length <= 12; one += "#" )
+    console.log(one);
+
+
+// for loop = for(counter; while loop; update counter) do something; terminate if while returns false
+// var tag = "#";
+// var aba = tag.length;
+// for (aba ; aba <= 6 ; aba++)
+//     tag + tag;
+

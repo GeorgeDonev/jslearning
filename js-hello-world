@@ -1,0 +1,33 @@
+var total = 0, count = 1;
+while (count <= 12) {
+    total += count;
+    count += 1;
+}
+
+
+function calculate() {
+    var x, y, z;
+    x = 314;
+    y = 100;//this is a statement, the simplest type of "sentence" in JS
+    z = Infinity - Infinity;
+    var calc = (x % y);
+    return calc;
+                //the "calculate" function inherits the value of "calc" when called
+                //return essentially assigns the value of "calc"  to "calculate"
+}
+
+var bool =  1 + 1 === 2 && 10 * 10 > 50;
+var conditionalTrue = true ? 1 : 2;
+var conditionalFalse = false ? 1 : 2;
+var ten = 10;
+console.log(ten * ten); //a variable name can be used as an expression once defined
+
+
+
+console.log(total);
+console.log(calculate());
+console.log("This is a newline expression like: \"\\n\"");
+console.log(bool);
+console.log(conditionalTrue, conditionalFalse);
+
+//console.log(sum(range(1,10)));
